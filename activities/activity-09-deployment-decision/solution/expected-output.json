@@ -1,0 +1,13 @@
+{
+  "activity_id": 9,
+  "decision": "PASS when the acceptance rule is evidenced; otherwise REPAIR or STOP",
+  "evidence": [
+    "source-linked artifact",
+    "completed workflow fields",
+    "verifier PASS",
+    "human review record"
+  ],
+  "human_owner": "Product lead",
+  "acceptance": "The selected option meets task, integration, safety and recovery thresholds; caveats are explicit.",
+  "required_output": "Deployment matrix, reference architecture and fallback path"
+}

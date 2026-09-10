@@ -1,0 +1,17 @@
+course_code: "TGS-2024045799"
+course_title: "Agentic AI for Product Development"
+activity_id: 3
+title: "Build a Research Evidence Pack"
+objective: "Transform mock market and competitor records into a traceable, uncertainty-aware insight brief."
+workflow:
+  - "Load records"
+  - "Normalise facts"
+  - "Triangulate claims"
+  - "Flag conflict"
+  - "Rank insight"
+  - "Cite sources"
+required_output: "Claim ledger, competitor matrix and three prioritised insights"
+acceptance: "Material insights cite at least two records or explicitly state single-source uncertainty."
+human_gate: false
+data_policy: synthetic_only
+decision_states: [PASS, REPAIR, STOP]

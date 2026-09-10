@@ -1,0 +1,13 @@
+{
+  "activity_id": 6,
+  "decision": "PASS when the acceptance rule is evidenced; otherwise REPAIR or STOP",
+  "evidence": [
+    "source-linked artifact",
+    "completed workflow fields",
+    "verifier PASS",
+    "human review record"
+  ],
+  "human_owner": "Product lead",
+  "acceptance": "Requirements are testable, non-goals are explicit, and every priority story has three acceptance examples.",
+  "required_output": "Lean PRD, story map and acceptance set"
+}

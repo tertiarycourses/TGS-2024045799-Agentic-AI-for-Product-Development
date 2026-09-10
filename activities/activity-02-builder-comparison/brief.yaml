@@ -1,0 +1,17 @@
+course_code: "TGS-2024045799"
+course_title: "Agentic AI for Product Development"
+activity_id: 2
+title: "Compare Agentic AI Builders"
+objective: "Run a common product-research task across three synthetic builder profiles and select a fit-for-purpose option."
+workflow:
+  - "Freeze task"
+  - "Set criteria"
+  - "Score builders"
+  - "Apply weights"
+  - "Test sensitivity"
+  - "Recommend"
+required_output: "Weighted builder comparison with sensitivity check"
+acceptance: "Scores use one common task, weights total 100%, and the recommendation survives or explains sensitivity."
+human_gate: true
+data_policy: synthetic_only
+decision_states: [PASS, REPAIR, STOP]

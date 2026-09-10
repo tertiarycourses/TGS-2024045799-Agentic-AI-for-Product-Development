@@ -1,0 +1,13 @@
+{
+  "activity_id": 5,
+  "decision": "PASS when the acceptance rule is evidenced; otherwise REPAIR or STOP",
+  "evidence": [
+    "source-linked artifact",
+    "completed workflow fields",
+    "verifier PASS",
+    "human review record"
+  ],
+  "human_owner": "Product lead",
+  "acceptance": "Every stage has an owner and observable output; consequential actions stop for human review.",
+  "required_output": "Workflow canvas and responsibility matrix"
+}

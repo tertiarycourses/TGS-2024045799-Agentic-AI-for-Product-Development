@@ -1,0 +1,17 @@
+course_code: "TGS-2024045799"
+course_title: "Agentic AI for Product Development"
+activity_id: 7
+title: "Engineer a Prompt and Evaluation Set"
+objective: "Create a structured prompt contract and a frozen evaluation set for a product-feedback agent."
+workflow:
+  - "Define contract"
+  - "Sample cases"
+  - "Add edges"
+  - "Freeze rubric"
+  - "Run baseline"
+  - "Record gaps"
+required_output: "Versioned prompt, 20-case evaluation CSV and scoring rubric"
+acceptance: "The evaluation set covers all segments; scoring rules are reproducible; baseline failures are retained."
+human_gate: false
+data_policy: synthetic_only
+decision_states: [PASS, REPAIR, STOP]

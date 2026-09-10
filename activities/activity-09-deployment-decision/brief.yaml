@@ -1,0 +1,17 @@
+course_code: "TGS-2024045799"
+course_title: "Agentic AI for Product Development"
+activity_id: 9
+title: "Select a Deployment Posture"
+objective: "Compare channel and architecture options for an agentic product using task, integration and risk evidence."
+workflow:
+  - "Map context"
+  - "Compare channels"
+  - "Select architecture"
+  - "Add fallback"
+  - "Cost posture"
+  - "Approve"
+required_output: "Deployment matrix, reference architecture and fallback path"
+acceptance: "The selected option meets task, integration, safety and recovery thresholds; caveats are explicit."
+human_gate: true
+data_policy: synthetic_only
+decision_states: [PASS, REPAIR, STOP]

@@ -1,0 +1,17 @@
+course_code: "TGS-2024045799"
+course_title: "Agentic AI for Product Development"
+activity_id: 5
+title: "Design an Agent Workflow Canvas"
+objective: "Map a product-discovery task into an agentic loop with tools, state, stop conditions and human gates."
+workflow:
+  - "Define goal"
+  - "Map stages"
+  - "Assign tools"
+  - "Set schemas"
+  - "Add gates"
+  - "Set stop"
+required_output: "Workflow canvas and responsibility matrix"
+acceptance: "Every stage has an owner and observable output; consequential actions stop for human review."
+human_gate: true
+data_policy: synthetic_only
+decision_states: [PASS, REPAIR, STOP]

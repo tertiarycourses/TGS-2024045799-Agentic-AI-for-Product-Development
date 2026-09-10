@@ -1,0 +1,13 @@
+{
+  "activity_id": 3,
+  "decision": "PASS when the acceptance rule is evidenced; otherwise REPAIR or STOP",
+  "evidence": [
+    "source-linked artifact",
+    "completed workflow fields",
+    "verifier PASS",
+    "human review record"
+  ],
+  "human_owner": "Product lead",
+  "acceptance": "Material insights cite at least two records or explicitly state single-source uncertainty.",
+  "required_output": "Claim ledger, competitor matrix and three prioritised insights"
+}

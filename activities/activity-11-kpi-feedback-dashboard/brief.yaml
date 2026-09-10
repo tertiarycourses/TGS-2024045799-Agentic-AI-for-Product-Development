@@ -1,0 +1,17 @@
+course_code: "TGS-2024045799"
+course_title: "Agentic AI for Product Development"
+activity_id: 11
+title: "Design KPI and Feedback Dashboard"
+objective: "Create a metric tree and monitoring view that balances business value, quality, experience, cost and risk."
+workflow:
+  - "Set outcome"
+  - "Add guardrails"
+  - "Define events"
+  - "Set thresholds"
+  - "Assign action"
+  - "Review drift"
+required_output: "KPI tree, alert table and feedback taxonomy"
+acceptance: "Metrics have formulas, data sources, thresholds, segments and action owners; no vanity-only measure drives release."
+human_gate: false
+data_policy: synthetic_only
+decision_states: [PASS, REPAIR, STOP]

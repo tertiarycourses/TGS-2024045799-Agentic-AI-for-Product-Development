@@ -1,0 +1,13 @@
+{
+  "activity_id": 7,
+  "decision": "PASS when the acceptance rule is evidenced; otherwise REPAIR or STOP",
+  "evidence": [
+    "source-linked artifact",
+    "completed workflow fields",
+    "verifier PASS",
+    "human review record"
+  ],
+  "human_owner": "Product lead",
+  "acceptance": "The evaluation set covers all segments; scoring rules are reproducible; baseline failures are retained.",
+  "required_output": "Versioned prompt, 20-case evaluation CSV and scoring rubric"
+}

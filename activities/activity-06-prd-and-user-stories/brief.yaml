@@ -1,0 +1,17 @@
+course_code: "TGS-2024045799"
+course_title: "Agentic AI for Product Development"
+activity_id: 6
+title: "Create an AI-Ready PRD"
+objective: "Convert an opportunity brief into outcome-focused requirements, user stories and acceptance examples."
+workflow:
+  - "Restate problem"
+  - "Define behavior"
+  - "Write stories"
+  - "Add examples"
+  - "Set non-goals"
+  - "Review gaps"
+required_output: "Lean PRD, story map and acceptance set"
+acceptance: "Requirements are testable, non-goals are explicit, and every priority story has three acceptance examples."
+human_gate: true
+data_policy: synthetic_only
+decision_states: [PASS, REPAIR, STOP]

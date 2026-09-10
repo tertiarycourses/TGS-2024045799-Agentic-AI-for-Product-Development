@@ -1,0 +1,17 @@
+course_code: "TGS-2024045799"
+course_title: "Agentic AI for Product Development"
+activity_id: 1
+title: "Frame a Product Opportunity"
+objective: "Turn synthetic stakeholder notes into a measurable agentic-AI opportunity brief."
+workflow:
+  - "Inspect notes"
+  - "Name user"
+  - "Quantify friction"
+  - "Define outcome"
+  - "List assumptions"
+  - "Set validation"
+required_output: "Completed opportunity brief and assumption register"
+acceptance: "Every claim traces to a source row; the outcome is measurable; high-risk assumptions have named tests."
+human_gate: true
+data_policy: synthetic_only
+decision_states: [PASS, REPAIR, STOP]

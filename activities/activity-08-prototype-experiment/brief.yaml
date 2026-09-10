@@ -1,0 +1,17 @@
+course_code: "TGS-2024045799"
+course_title: "Agentic AI for Product Development"
+activity_id: 8
+title: "Run a Prototype Experiment"
+objective: "Evaluate a synthetic agent prototype, classify failures and recommend one causal improvement."
+workflow:
+  - "Run baseline"
+  - "Score outputs"
+  - "Classify failure"
+  - "Change one layer"
+  - "Re-run set"
+  - "Decide"
+required_output: "Experiment ledger with before-after scores and decision"
+acceptance: "The change targets one causal layer, the frozen set is preserved, and regression risk is documented."
+human_gate: true
+data_policy: synthetic_only
+decision_states: [PASS, REPAIR, STOP]

@@ -1,0 +1,13 @@
+{
+  "activity_id": 1,
+  "decision": "PASS when the acceptance rule is evidenced; otherwise REPAIR or STOP",
+  "evidence": [
+    "source-linked artifact",
+    "completed workflow fields",
+    "verifier PASS",
+    "human review record"
+  ],
+  "human_owner": "Product lead",
+  "acceptance": "Every claim traces to a source row; the outcome is measurable; high-risk assumptions have named tests.",
+  "required_output": "Completed opportunity brief and assumption register"
+}

@@ -1,0 +1,13 @@
+{
+  "activity_id": 2,
+  "decision": "PASS when the acceptance rule is evidenced; otherwise REPAIR or STOP",
+  "evidence": [
+    "source-linked artifact",
+    "completed workflow fields",
+    "verifier PASS",
+    "human review record"
+  ],
+  "human_owner": "Product lead",
+  "acceptance": "Scores use one common task, weights total 100%, and the recommendation survives or explains sensitivity.",
+  "required_output": "Weighted builder comparison with sensitivity check"
+}

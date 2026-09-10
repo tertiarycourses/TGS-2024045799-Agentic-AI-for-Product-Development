@@ -1,0 +1,13 @@
+{
+  "activity_id": 12,
+  "decision": "PASS when the acceptance rule is evidenced; otherwise REPAIR or STOP",
+  "evidence": [
+    "source-linked artifact",
+    "completed workflow fields",
+    "verifier PASS",
+    "human review record"
+  ],
+  "human_owner": "Product lead",
+  "acceptance": "The recommendation is traceable to evidence, survives a downside scenario, and has measurable exit criteria.",
+  "required_output": "One-page decision memo and 90-day rollout scorecard"
+}

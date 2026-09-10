@@ -1,0 +1,17 @@
+course_code: "TGS-2024045799"
+course_title: "Agentic AI for Product Development"
+activity_id: 4
+title: "Create Persona and JTBD Map"
+objective: "Derive evidence-based personas and jobs-to-be-done without presenting generated assumptions as facts."
+workflow:
+  - "Cluster needs"
+  - "Draft persona"
+  - "Write JTBD"
+  - "Label inference"
+  - "Rank risk"
+  - "Plan test"
+required_output: "Two persona cards, JTBD statements and validation plan"
+acceptance: "Persona needs trace to source IDs; assumptions are labelled; each risky assumption has a feasible validation test."
+human_gate: true
+data_policy: synthetic_only
+decision_states: [PASS, REPAIR, STOP]

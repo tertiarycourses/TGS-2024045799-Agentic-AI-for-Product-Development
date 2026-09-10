@@ -1,0 +1,9 @@
+source_id,source_type,observation,theme,severity_1_5,observed_on
+SRC-001,Interview,New users abandon setup when terminology is unclear,onboarding,4,2026-08-12
+SRC-002,Support ticket,Customers ask which plan supports team approval,pricing,3,2026-08-14
+SRC-003,Usage event,Invited teammates do not complete the first shared task,activation,5,2026-08-17
+SRC-004,Sales note,Prospects want evidence that sensitive actions require approval,trust,5,2026-08-20
+SRC-005,Survey,Users value faster setup but will not trade away control,experience,4,2026-08-22
+SRC-006,Competitor review,Peer A explains uncertainty but lacks workflow integration,competition,3,2026-08-25
+SRC-007,Pilot trace,Agent completed 16 of 20 cases; two unsupported claims escaped,quality,5,2026-08-28
+SRC-008,Cost record,Median run cost was SGD 0.42 plus six minutes of review,cost,3,2026-08-30

@@ -1,0 +1,13 @@
+{
+  "activity_id": 11,
+  "decision": "PASS when the acceptance rule is evidenced; otherwise REPAIR or STOP",
+  "evidence": [
+    "source-linked artifact",
+    "completed workflow fields",
+    "verifier PASS",
+    "human review record"
+  ],
+  "human_owner": "Product lead",
+  "acceptance": "Metrics have formulas, data sources, thresholds, segments and action owners; no vanity-only measure drives release.",
+  "required_output": "KPI tree, alert table and feedback taxonomy"
+}

@@ -1,0 +1,42 @@
+{
+  "organisation": "Northstar Software (synthetic)",
+  "product": "Team onboarding assistant",
+  "baseline": {
+    "activation_rate": 0.46,
+    "median_setup_minutes": 38,
+    "unsupported_claim_rate": 0.1
+  },
+  "target": {
+    "activation_rate": 0.62,
+    "median_setup_minutes": 24,
+    "unsupported_claim_rate": 0.01
+  },
+  "constraints": [
+    "synthetic data only",
+    "no live integrations",
+    "human approval before consequential action"
+  ],
+  "builder_trials": [
+    {
+      "builder": "Atlas",
+      "quality": 82,
+      "governance": 91,
+      "integration": 72,
+      "cost": 64
+    },
+    {
+      "builder": "Beacon",
+      "quality": 76,
+      "governance": 74,
+      "integration": 91,
+      "cost": 81
+    },
+    {
+      "builder": "Cobalt",
+      "quality": 88,
+      "governance": 79,
+      "integration": 84,
+      "cost": 58
+    }
+  ]
+}

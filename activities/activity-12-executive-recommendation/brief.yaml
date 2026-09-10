@@ -1,0 +1,17 @@
+course_code: "TGS-2024045799"
+course_title: "Agentic AI for Product Development"
+activity_id: 12
+title: "Deliver a Governed Product Recommendation"
+objective: "Synthesize value, evaluation, readiness and risk evidence into an executive pilot, expand, hold or stop decision."
+workflow:
+  - "Summarise value"
+  - "Compare evidence"
+  - "Price risk"
+  - "Test downside"
+  - "Set conditions"
+  - "Recommend"
+required_output: "One-page decision memo and 90-day rollout scorecard"
+acceptance: "The recommendation is traceable to evidence, survives a downside scenario, and has measurable exit criteria."
+human_gate: true
+data_policy: synthetic_only
+decision_states: [PASS, REPAIR, STOP]

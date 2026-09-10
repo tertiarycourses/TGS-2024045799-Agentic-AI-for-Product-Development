@@ -1,0 +1,17 @@
+course_code: "TGS-2024045799"
+course_title: "Agentic AI for Product Development"
+activity_id: 10
+title: "Conduct a Risk and Control Review"
+objective: "Threat-model an agent workflow and assign layered controls, evidence and owners."
+workflow:
+  - "Map assets"
+  - "Identify threats"
+  - "Score exposure"
+  - "Select controls"
+  - "Assign owner"
+  - "Test control"
+required_output: "Risk register, permission map and control test plan"
+acceptance: "High risks have preventive and detective controls, named owners and testable evidence."
+human_gate: true
+data_policy: synthetic_only
+decision_states: [PASS, REPAIR, STOP]
